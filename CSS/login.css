@@ -1,0 +1,125 @@
+h1 {
+  color: black;
+}
+
+body{
+  background-image: url(../asset/img/background0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  box-shadow: 3px 3px 3px 3px white;
+  padding: 5px 40px;
+  margin: 0px 20px;
+  border-radius: 20px;
+}
+
+.box {
+  box-shadow: 3px 3px 3px 3px white;
+  padding: 5px 40px;
+  margin: 20px 20px;
+  border-radius: 20px;
+}
+
+.box {
+  padding: 5px 40px;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+.bgfilter {
+  background-color: rgb(0, 0, 0, 0);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+
+label {
+  margin-right: 12px;
+  font-size: 23px;
+  font-style: oblique;
+}
+
+label .textMainMenu {
+  margin-right: 12px;
+  font-size: 23px;
+}
+
+label .textMainMenu .textarea {
+  margin-right: 12px;
+  font-size: 23px;
+  box-shadow: 0 0 0 2pt black;
+}
+
+.userAccount {}
+
+.button {
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 25px;
+  position: relative;
+  outline-style: none;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  transition-duration: 1s;
+  padding: 3px 44px;
+  font-family: 'Roboto', sans-serif !important;
+  color: white;
+  border-radius: 16px;
+  border-color: white;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+}
+
+.inputText {
+  font-size:1rem;
+  /* height: 22px; */
+  width: 320px;
+  box-shadow: 0 0 0 2pt black;
+}
+
+.isiform {
+  backdrop-filter: blur(10px);
+  margin-top: 2vh !important;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  width: max-content;
+  background-color: rgb(102, 153, 153, 0.8);
+  padding: 20px 40px 5px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 2pt black;
+  animation: fade 3s 0s;
+}
+
+.textRegister {
+  font-family: bakery, sans-serif;
+  font-size: 5rem;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+
+.gambarForm{
+
+}
+
+.isiMainMenu {
+  backdrop-filter: blur(10px);
+  margin-top: 15vh !important;
+  margin: 0 auto;
+  display: block;
+  width: 30vw;
+  background-color: rgb(102, 153, 153, 0.8);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 2pt black;
+  animation: fade 3s 0s;
+}

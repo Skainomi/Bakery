@@ -1,0 +1,12 @@
+.buttonContinue {
+  transition-property: all;
+  transition: 1s 0s;
+}
+
+.buttonContinue:hover {
+  color: white;
+}
+
+.colorButtonContinue {
+  color: white;
+}
