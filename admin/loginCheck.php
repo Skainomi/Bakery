@@ -11,7 +11,6 @@ $getDataAdmin = "SELECT * FROM `data_pegawai` WHERE `username` = '$username' && 
 $sqlDataAdmin = $conn -> query($getDataAdmin);
 if ($sqlDataAdmin -> num_rows > 0) {
     $_SESSION['username'] = $username;
-    echo "string";
     header("Location:index.php");
 } else {
     header("Location:login.php?errorID=0");
